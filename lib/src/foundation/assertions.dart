@@ -60,7 +60,7 @@ class PartialStackFrame {
     method: 'asynchronous suspension',
   );
 
-  /// The package to match, e.g. `package:flutter/src/foundation/assertions.dart`,
+  /// The package to match, e.g. `package:hermit/src/foundation/assertions.dart`,
   /// or `dart:ui/window.dart`.
   final Pattern package;
 
